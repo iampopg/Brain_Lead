@@ -14,9 +14,9 @@ Brain Lead is a comprehensive windows application for lead generation, validatio
 - **📱 Phone Generator**: Generate phone numbers with area codes and custom formatting
 - **✅ Validator**: Multi-provider email/phone validation (Amazon, Microsoft)
 - **📡 Carrier Checker**: Real-time carrier detection
-- **🔍 Google Extractor**: Extract emails/phones from Google search results
+- **🔍 Google Extractor**: Extract emails/phones from Google search results(API)
 - **🧹 Data Cleansing**: Clean, deduplicate, and format lead data
-- **📮 Debounce Integration**: Email deliverability verification
+- **📮 Debounce Integration**: Email deliverability verification(API)
 
 ### Advanced Features
 

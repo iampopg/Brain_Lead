@@ -261,7 +261,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## ⚠️ Disclaimer
 
-This tool is for legitimate lead generation and validation purposes only. Users are responsible for:
+This tool is for legitimate lead generation and validation purposes only for marketers. Users are responsible for:
 
 - Complying with applicable laws and regulations
 - Respecting website terms of service

@@ -1,4 +1,4 @@
-# Brain Lead - All-in-One Email & SMS Tools
+# Brain Lead - All-in-One Email & SMS Tools 
 
 ![Brain Lead Logo](logo.png)
 

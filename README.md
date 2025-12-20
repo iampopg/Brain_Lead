@@ -14,9 +14,9 @@ Brain Lead is a comprehensive windows application for lead generation, validatio
 - **📱 Phone Generator**: Generate phone numbers with area codes and custom formatting
 - **✅ Validator**: Multi-provider email/phone validation (Amazon, Microsoft)
 - **📡 Carrier Checker**: Real-time carrier detection
-- **🔍 Google Extractor**: Extract emails/phones from Google search results
+- **🔍 Web Extractor**: Extract emails/phones from web search results
 - **🧹 Data Cleansing**: Clean, deduplicate, and format lead data
-- **📮 Debounce Integration**: Email deliverability verification
+- **📮 Email Debounce**: Advanced email deliverability checking
 
 ### Advanced Features
 
@@ -47,23 +47,19 @@ Brain Lead is a comprehensive windows application for lead generation, validatio
 ### Initial Setup
 
 1. **Launch the application**
-2. **Configure API credentials** in Settings:
-   - Google API Key (for search extraction)
-   - Google Search Engine ID
-   - Debounce API Key (for email verification)
+2. **Configure settings** in the application:
+   - Proxy settings (for web extraction)
 
 ### Configuration Files
 
 - `config/settings.json` - Main application settings
 - `config/credentials_template.json` - Credential template
-- `config/proxies.txt` - Proxy list for validation
+- `config/proxies.txt` - Proxy list for validation and extraction
 
-### Environment Variables (Recommended for Production)
+### Environment Variables (Optional)
 
 ```cmd
-set GOOGLE_API_KEY=your_google_api_key
-set GOOGLE_ENGINE_ID=your_search_engine_id
-set DEBOUNCE_API_KEY=your_debounce_api_key
+set BRAIN_DEBUG=1
 ```
 
 ## 🎯 Usage Guide
@@ -108,10 +104,10 @@ set DEBOUNCE_API_KEY=your_debounce_api_key
 - **SMS Gateway**: Email-to-SMS conversion
 - **Batch Processing**: Handle large datasets efficiently
 
-#### 🔍 Google Extractor
+#### 🔍 Web Extractor
 
-- **Search Automation**: Extract from Google results
-- **Auto-Dorks**: Intelligent search query generation
+- **Search Automation**: Extract from web search results
+- **Auto-Generation**: Intelligent query generation
 - **Domain Filtering**: Target specific websites
 - **Data Extraction**: Emails, phones, and contact info
 
@@ -122,7 +118,7 @@ The Workflow module combines all tools into a single pipeline:
 1. **Input Selection**: Generate or load existing leads
 2. **Validation**: Multi-provider verification
 3. **Carrier Filtering**: Target specific carriers
-4. **Debounce Check**: Email deliverability verification
+4. **Email Debounce**: Advanced deliverability checking
 5. **Export**: Save final results
 
 
@@ -152,17 +148,10 @@ The Workflow module combines all tools into a single pipeline:
 
 ## 🌐 API Integrations
 
-### Google Custom Search API
-
-- **Search Automation**: Programmatic Google searches
-- **Result Extraction**: Parse search results for contact data
-- **Rate Limiting**: Respect API quotas and delays
-- **Custom Engines**: Target specific websites
-
-### Debounce Email Validation API
+### Email Debounce
 
 - **Deliverability Check**: Real-time email verification
-- **Bounce Prediction**: Identify problematic addresses
+- **Quality Assessment**: Advanced email analysis
 - **Bulk Processing**: Handle large email lists
 - **Detailed Results**: Comprehensive validation reports
 
